@@ -13,8 +13,3 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' openwrt/package/lean/default-se
 
 #3. Replace with JerryKuKu’s Argon
 rm openwrt/package/lean/luci-theme-argon -rf
-
-sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
-
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
